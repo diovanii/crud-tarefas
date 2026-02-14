@@ -1,0 +1,29 @@
+{
+  "name": "crud-tarefas",
+  "version": "1.0.0",
+  "description": "Desafio de aplicação CRUD Rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand --verbose",
+    "test:watch": "jest --watchAll --runInBand --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diovanii/crud-tarefas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/diovanii/crud-tarefas/issues"
+  },
+  "homepage": "https://github.com/diovanii/crud-tarefas#readme",
+  "devDependencies": {
+    "jest": "30.2.0"
+  },
+  "dependencies": {
+    "csv-parse": "6.1.0"
+  }
+}
